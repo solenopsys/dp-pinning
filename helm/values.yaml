@@ -8,6 +8,6 @@ service:
 containers:
   hs_adapter:
     name: hs-postgres
-    image: registry.solenopsys.org/platform-ms-pinning
+    image: registry.solenopsys.org/ms-pinning
     pullPolicy: Always
 
