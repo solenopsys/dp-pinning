@@ -25,6 +25,10 @@ spec:
               value: "9094"
             - name: ipfs-cluster.Host
               value: "ipfs-cluster-node.default.svc.cluster.local"
+            - name: ipfs.Port
+              value: "5001"
+            - name: ipfs.Host
+              value: "ipfs-node.default.svc.cluster.local"
             - name: postgres.Host
               value: "solenopsys-ds-postgres.default.svc.cluster.local"
             - name: postgres.Port
